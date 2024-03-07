@@ -1,0 +1,13 @@
+{
+  "name": "Large Anucoin Wall",
+  "absorbLasers": true,
+  "description": "A large defensive wall made of Anucoins. Absorbs lasers",
+  "type": "Wall",
+  "health": 5120,
+  "size": 2,
+  "requirements": [
+    "anucoin/128",
+  ],
+  "category": "defense",
+  "research": "z1-anucoin-wall"
+}
