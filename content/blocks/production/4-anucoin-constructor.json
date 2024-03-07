@@ -1,0 +1,55 @@
+{
+    "name": "Anucoin Constructor",
+    "description": "Melds Silicon, Slag, Beryllium, Nitrogen and Tungsten together into Anucoins",
+    "type": "HeatCrafter",
+    "health": 1240,
+    "outputItem": {"item": "anucoin", "amount": 1},
+    "outputLiquids": [
+      "router-condensate/0.8"
+    ],
+    "consumes": {
+        "power": 8,
+        "items": [
+          "silicon/3",
+          "tungsten/2",
+          "beryllium/2"
+        ],
+        "liquids": [
+          "slag/0.366",
+          "nitrogen/0.2",
+        ]
+    },
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+          {
+            "type": "DrawDefault"
+          },
+          {
+            "type": "DrawHeatInput"
+          },
+          {
+            "type": "DrawCrucibleFlame",
+          }
+        ]
+    },
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "LiquidCapacity": 144,
+    "itemCapacity": 20,
+    "heatRequirement": 12,
+    "craftTime": 60,
+    "updateEffect": "pulverize",
+    "category": "crafting",
+    "research": "carbide-crucible",
+    "requirements": [
+      "tungsten/640",
+      "silicon/640",
+      "oxide/480",
+      "carbide/480",
+      "surge-alloy/120",
+      "phase-fabric/120"
+    ]
+}
