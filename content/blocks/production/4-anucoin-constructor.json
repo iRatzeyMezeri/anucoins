@@ -3,7 +3,9 @@
     "description": "Melds Silicon, Slag, Beryllium, Nitrogen and Tungsten together into Anucoins",
     "type": "HeatCrafter",
     "health": 1240,
-    "outputItem": {"item": "anucoin", "amount": 1},
+    "outputItems": [
+        "anucoin/1"
+    ],
     "outputLiquids": [
       "router-condensate/0.8"
     ],
